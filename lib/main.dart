@@ -11,7 +11,7 @@ class MyloginApp extends StatelessWidget {
       title: 'web master',
       theme: ThemeData(
         brightness: Brightness.light,
-        primarySwatch: Colors.yellow,
+        primarySwatch: Colors.deepOrange[50],
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       darkTheme: ThemeData(
