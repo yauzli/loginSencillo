@@ -133,10 +133,10 @@ class _IngresoSistemaState extends State<IngresoSistema> {
               Center(
                 child: Column(
                   children: <Widget>[
-                    Text('YAY, I am login!'),
+                    Text('ESTOY REGISTRADO!'),
                     RaisedButton(
                       elevation: 20.0,
-                      child: Text('Logout'),
+                      child: Text('CERRAR SESION'),
                       onPressed: () {
                         setState(() {
                           acceso = false;
