@@ -110,7 +110,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                           child: Text('CANCEL'),
                           onPressed: () {
                             setState(() {
-                              isLogin = false;
+                              IngresoSistema = false;
                             });
                           },
                         ),
@@ -120,11 +120,11 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                           ),
                           onPressed: () {
                             setState(() {
-                              isLogin = true;
+                              IngresoSistema = true;
                             });
                           },
                         ),
-                      ],
+                      ], //fin de niños
                     ),
                   ) //fin pading
                 ], //fin widgwt chil
