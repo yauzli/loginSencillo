@@ -92,7 +92,15 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                       labelText: 'Nombre de usuario',
                     ),
                   ),
-                ],
+                  SizedBox(height: 12.0),
+                  TextField(
+                    decoration: InputDecoration(
+                      filled: true,
+                      labelText: 'Contraseña',
+                    ),
+                    obscureText: true,
+                  ),
+                ], //fin widgwt
               ) //fin de columna
             //fin widget
           ], //fin childre widget
