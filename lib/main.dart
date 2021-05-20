@@ -78,13 +78,12 @@ class _IngresoSistemaState extends State<IngresoSistema> {
             SizedBox(height: 80.0),
             Column(
               children: <Widget>[
-                Image.asset(),
+                //Image.asset(),
                 SizedBox(height: 16.0),
               ], //children<wi>
             ),//final colum
              if(!acceso){
-             Column()//fin de columna  
-             children: <Widget>[
+             Column(children: <Widget>[
              
                      TextField(
                       decoration: InputDecoration(
@@ -94,7 +93,8 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                     ),
                   ),
 
-             ]  //fin widget
+             ] )//fin de columna  
+              //fin widget
 
              
              }
