@@ -82,7 +82,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                 SizedBox(height: 16.0),
               ], //children<wi>
             ),//final colum
-             if (!acceso){
+             if(!acceso){
              Column()//fin de columna  
              children: <Widget>[
              
@@ -98,7 +98,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
 
              
              }
-             else {
+             else{
 
 
              }//else falso
