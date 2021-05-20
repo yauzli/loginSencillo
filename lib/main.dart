@@ -113,7 +113,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                               acceso = false;
                             });
                           },
-                        ),//fin flatbutton
+                        ), //fin flatbutton
                         RaisedButton(
                           child: Text(
                             'siguiente',
@@ -123,12 +123,30 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                               acceso = true;
                             });
                           },
-                        ),//finrisebutton
+                        ), //finrisebutton
                       ], //fin de niños
                     ),
                   ) //fin pading
-                ], //fin widgwt chil
+                ], //fin widgwt chilA
               ) //fin de columna
+            else
+              Center(
+                child: Column(
+                  children: <Widget>[
+                    Text('YAY, I am login!'),
+                    RaisedButton(
+                      elevation: 20.0,
+                      child: Text('Logout'),
+                      onPressed: () {
+                        setState(() {
+                          acceso = false;
+                        });
+                      },
+                    )
+                  ],
+                ),
+              )
+
             //fin widget
           ], //fin childre widget
         ), //fin list view
