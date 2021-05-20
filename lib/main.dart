@@ -97,8 +97,6 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                 ) //fin de columna
                 //fin widget
               }
-            else
-              {} //else falso
           ], //fin childre widget
         ), //fin list view
       ), //fin safe area
