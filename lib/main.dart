@@ -107,13 +107,13 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                       mainAxisAlignment: MainAxisAlignment.end,
                       children: <Widget>[
                         FlatButton(
-                          child: Text('CANCEL'),
+                          child: Text('CANCELAR'),
                           onPressed: () {
                             setState(() {
                               acceso = false;
                             });
                           },
-                        ),
+                        ),//fin flatbutton
                         RaisedButton(
                           child: Text(
                             'siguiente',
@@ -123,7 +123,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                               acceso = true;
                             });
                           },
-                        ),
+                        ),//finrisebutton
                       ], //fin de niños
                     ),
                   ) //fin pading
